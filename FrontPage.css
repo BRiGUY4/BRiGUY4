@@ -1,0 +1,41 @@
+body{
+background: blue;
+text-align: center;
+}
+
+#main{
+	width:1000px;
+	height:600px;
+	background:red;
+	margin:25px auto;
+	border:solid 2px white;
+}
+
+#sidebar{
+	position:fixed;
+	width:200px;
+	height:100px;
+	background:black;
+	transition; all 500ms linear;
+}
+
+#sidebar ul li {
+	color:white;
+	list-style:none;
+	padding:15px 10px;
+	border-bottom: 1px solid blue;
+}
+
+#sidebar .toggle {
+	position:absolute;
+	left: 230px;
+	top: 20px;
+}
+
+#sidebar .toggle span{
+	display: block;
+	width:30px;
+	height:5px;
+	background:white;
+	margin: 3px 0px;
+}
